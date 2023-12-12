@@ -1,5 +1,5 @@
 function Home(){
-    return <h1>Realizando a configuração do index.js</h1>
+    return <h1>Alterando o index para testar o deploy via Vercel.</h1>
 }
 
 export default Home;
