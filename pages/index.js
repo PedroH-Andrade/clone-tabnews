@@ -1,5 +1,14 @@
+import Imagem from "../assets/images/loading.gif";
 function Home() {
-  return <h1>Alterando o index para testar o deploy via Vercel.</h1>;
+  return (
+    <>
+      <img
+        src={Imagem}
+        alt="Imagem informando que a página está em construção"
+        title="Página em construção"
+      />
+    </>
+  );
 }
 
 export default Home;
