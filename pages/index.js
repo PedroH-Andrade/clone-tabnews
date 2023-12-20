@@ -1,9 +1,11 @@
-import Imagem from "../assets/images/loading.gif";
+import Image from "next/image";
+import Construction from "../assets/images/loading.gif";
+
 function Home() {
   return (
     <>
-      <img
-        src={Imagem}
+      <Image
+        src={Construction}
         alt="Imagem informando que a página está em construção"
         title="Página em construção"
       />
